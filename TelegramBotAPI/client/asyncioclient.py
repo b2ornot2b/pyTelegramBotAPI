@@ -3,7 +3,7 @@ import os
 import io
 import asyncio
 import aiohttp
-from aiohttp.helpers import FormData
+from aiohttp.formdata import FormData
 
 from TelegramBotAPI.client.baseclient import BaseClient
 
